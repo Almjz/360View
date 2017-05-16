@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThreeSixtyView">
+        <attr name="spriteSrc" format="string" />
+        <attr name="spriteRows" format="integer" />
+        <attr name="spriteCols" format="integer" />
+        <attr name="spriteCellWidth" format="integer" />
+        <attr name="spriteCellHeight" format="integer" />
+
+    </declare-styleable>
+</resources>

@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:threesixty="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <com.mintango.threesixtycanvas.ThreeSixtyView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        threesixty:spriteSrc="http://www.mintango.com/ring.jpeg"
+        threesixty:spriteCellHeight="225"
+        threesixty:spriteCellWidth="225"
+        threesixty:spriteCols="10"
+        threesixty:spriteRows="5"
+        />
+
+</LinearLayout>
